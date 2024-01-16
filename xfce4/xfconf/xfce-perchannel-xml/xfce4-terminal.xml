@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="color-foreground" type="string" value="#e0e0e0"/>
+  <property name="color-background" type="string" value="#000000"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value=""/>
+  <property name="color-cursor" type="string" value="x"/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection" type="string" value=""/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-palette" type="string" value="#000000;#fb0120;#a1c659;#fda331;#6fb3d2;#d381c3;#76c7b7;#e0e0e0;#b0b0b0;#fb0120;#a1c659;#fda331;#6fb3d2;#d381c3;#76c7b7;#ffffff"/>
+  <property name="color-bold-is-bright" type="bool" value="false"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="0.66000000000000003"/>
+  <property name="misc-toolbar-default" type="bool" value="false"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="misc-borders-default" type="bool" value="false"/>
+  <property name="background-image-shading" type="double" value="1"/>
+</channel>

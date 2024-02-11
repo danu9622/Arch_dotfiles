@@ -5,3 +5,10 @@
 This repository contains my personal dotfiles, including configurations for various Unix-like tools and applications.
 
 If somting isn't working proprely please text me on reddit or open a isssue.
+
+# System
+ 
+>Arch
+>I3 WM
+>Polybar
+>Rofi 

@@ -11,7 +11,7 @@
 
 #Start up
 exec --no-startup-id  nitrogen --restore
-exec --no-startup-id  sh ~/.config/polybar/launch.sh --hack
+exec --no-startup-id  sh ~/.config/polybar/launch.sh --docky
 exec --no-startup-id redshift -l 35:34 -t 3500:3500
 exec --no-startup-id mongod --dbpath ~/database 
 exec --no-startup-id picom 
@@ -164,9 +164,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+d exec sh ~/.config/polybar/hack/scripts/launcher.sh
+bindsym $mod+d exec sh ~/.config/polybar/docky/scripts/launcher.sh
 #powermenu
-bindsym $mod+Shift+e exec sh ~/.config/polybar/hack/scripts/powermenu.sh
+bindsym $mod+Shift+e exec sh ~/.config/polybar/docky/scripts/powermenu.sh
 #i3 lock(Betterlockscreen)
 #bindsym $mod+Shift+x betterlockscreen -l blur
 #exec --no-startup-id betterlockscreen -l blur
@@ -212,8 +212,8 @@ for_window [class="^.*"] border pixel 0
 gaps inner 8
 gaps outer 3
 
-for_window [class="^.*"] border pixel 2
-for_window [class="urxvt"] border pixel 2
+for_window [class="^.*"] border pixel 6
+for_window [class="urxvt"] border pixel 8
 
 # define colors for windows:
 #class		            	border		bground		text		indicator	child_border
@@ -223,9 +223,9 @@ for_window [class="urxvt"] border pixel 2
 #client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 # class                 border  backgr. text    indicator child_border                                                                     
-client.focused_inactive #27ae60 #212121 #d9d9d9 #0d1010  #27ae60                                                                             
-client.unfocused        #0d1010 #212121 #d9d9d9 #424242  #063340                                                                            
-client.focused          #27ae60 #cecece #000000 #d9d9d9  #27ae60   
+client.focused_inactive #27ae60 #212121 #d9d9d9 #27ae60  #27ae60                                                                             
+client.unfocused        #0d1010 #212121 #d9d9d9 #27ae60  #063340                                                                            
+client.focused          #27ae60 #cecece #000000 #27ae60  #27ae60   
 
 
 

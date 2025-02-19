@@ -45,5 +45,5 @@ If something isn’t working properly, feel free to:
 - Open an [issue](https://github.com/danu9622/Arch_dotfiles/issues)  
 
 ## **License**  
-These dotfiles are shared under the MIT License – feel free to use and modify them.  
+These dotfiles are shared under the Unlicense License – feel free to use and modify them.  
 

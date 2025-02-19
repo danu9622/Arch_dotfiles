@@ -22,19 +22,19 @@ This repository contains configurations for:
 
 ## **Installation**  
 To set up these dotfiles on your system, clone the repository:  
-\`\`\`bash
-git clone https://github.com/danu9622/dotfiles.git ~/dotfiles
+```bash
+git clone https://github.com/danu9622/Arch_dotfiles.git
 cd ~/dotfiles
-\`\`\`
+```
 You can then manually copy or symlink the configurations to their respective locations:  
-\`\`\`bash
+```bash
 ln -s ~/dotfiles/i3 ~/.config/i3
 ln -s ~/dotfiles/polybar ~/.config/polybar
 ln -s ~/dotfiles/picom ~/.config/picom
 ln -s ~/dotfiles/dunst ~/.config/dunst
 ln -s ~/dotfiles/neofetch ~/.config/neofetch
 ln -s ~/dotfiles/nitrogen ~/.config/nitrogen
-\`\`\`
+```
 
 ### **Screenshot**  
 Here’s a preview of the dotfiles repository:  
